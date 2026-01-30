@@ -34,7 +34,7 @@
 ## Data Source
 
 - **The New York Times**: COVID-19 case and death data for U.S. counties (2020).  
-  [us-counties.csv](https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv)
+  [COVID-19 Data](https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv)
 
 
 ---
