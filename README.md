@@ -14,7 +14,7 @@
 
 - **Map 2: Proportional Symbol Map of COVID-19 Cases (2020)**  
   An interactive proportional symbol map visualizing the total number of COVID-19 cases across U.S. counties in 2020.
-  ![Screenshot 1](img/map2.png)
+  ![Screenshot 2](img/map2.png)
   👉 [View Map 2](https://lily-liu61.github.io/Covid_Visualization/map2.html)
 ---
 
@@ -23,12 +23,13 @@
 > This map primarily shows the COVID-19 infection rate in each county of the United States. The infection rate is represented visually by color, with lighter colors indicating lower infection rates and darker colors indicating higher infection rates. Because each county occupies a very small area, the map can be zoomed in to view specific administrative boundaries.
 #### Highlighted Function
 - This map allows you to view the name of the county and its corresponding COVID-19 infection rate by hovering your mouse over it. This information will be displayed in the upper right corner of the map. If the mouse is not hovering over a county, the information box in the upper right corner will display "Hover over a county!".
+ ![Screenshot 3](img/hover.png)
 
 ### **Map 2**  
 > This map displays information on the number of COVID-19 cases in each county of the United States, using circular icons to represent the different quantities. This icon can be interpreted in two ways: firstly, by the color of the icon, with darker colors representing more cases; and secondly, by the size of the circle – if the colors are the same, a larger circle indicates more cases. Due to the large amount of data, many of the circular icons overlap, so you can zoom in to view the details.
 #### Highlighted Function
-- This map allows you to access information by clicking on the circular icons. When you randomly click on a circular icon, an information box will pop up above it, containing the county name and the recorded number of COVID-19 cases. The arrow of the information box points to the center of the clicked icon. This facilitates the presentation of detailed information without neglecting the overall visualization.
-
+- This map allows you to access information by clicking on the circular icons. When you randomly click on a circular icon, an information box will pop up above it, containing the county name and the recorded number of COVID-19 cases. The arrow of the information box points to the center of the clicked icon. This facilitates the presentation of detailed information without neglecting the overall visualization.  
+![Screenshot 4](img/click.png)
 ---
 
 ## Data Source
