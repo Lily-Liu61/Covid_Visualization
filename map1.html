@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>US Covid 2020</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <div class="map-overlay" id="features">
+        <h2>US Covid Rates by County in 2020</h2>
+        <div id="text-description">
+            <p>Hover over a county!</p>
+        </div>
+    </div>
+
+    <div id="legend"></div>
+    <div id="title">US Covid 2020</div>
+    <div id="subtitle">County-level Covid Rates</div>
+
+    <div id="info-box">
+        <h3>Map Information</h3>
+        <p><strong>Title:</strong> US COVID-19 County-level Rates (2020)</p>
+        <p><strong>Description:</strong> This map displays the COVID-19 infection rates across US counties in 2020. Darker colors indicate higher infection rates.</p>
+        <p><strong>Author:</strong> Yijia Liu</p>
+        <p><strong>Data Source:</strong> <a href="https://github.com/nytimes/covid-19-data" target="_blank">NY Times COVID-19 Data</a></p>
+        <p><strong>Created:</strong> January 2026</p>
+    </div>
+
+    <script src="js/main.js" defer></script>
+
+</body>
+
+</html>

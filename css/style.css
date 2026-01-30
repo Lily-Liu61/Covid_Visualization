@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#legend {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 180px;
+    background: #fff;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+}
+.legend-key {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25pt;
+    color: blue
+}
+
+
+#subtitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 70px;
+    margin-left: 190px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+    color: blue
+}
+
+/* Style for map 1 */
+.map-overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+}
+
+/* Style for Information Box */
+#info-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    z-index: 1;
+}
+
+#info-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 2px solid #007cbf;
+    padding-bottom: 5px;
+}
+
+#info-box p {
+    margin: 5px 0;
+    color: #555;
+}
+
+#info-box strong {
+    color: #333;
+}
+
+#info-box a {
+    color: #007cbf;
+    text-decoration: none;
+}
+
+#info-box a:hover {
+    text-decoration: underline;
+}
+
+/* Style for Map 2 */
+.break {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dot {
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.dot-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-style: italic;
+}
+
+#legend a {
+    color: black;
+}
