@@ -18,7 +18,7 @@
   👉 [View Map 2](https://lily-liu61.github.io/Covid_Visualization/map2.html)
 ---
 
-## Primary Functions
+## Functions
 ### **Map 1**  
 > This map primarily shows the COVID-19 infection rate in each county of the United States. The infection rate is represented visually by color, with lighter colors indicating lower infection rates and darker colors indicating higher infection rates. Because each county occupies a very small area, the map can be zoomed in to view specific administrative boundaries.
 #### Highlighted Function
